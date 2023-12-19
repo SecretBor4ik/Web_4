@@ -1,0 +1,62 @@
+body 
+{
+  font-family:"Arial", sans-serif;
+  text-align: center;
+  background: #516c88;
+  color: white;
+}
+
+h1
+{
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+header 
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #335272;
+  color: #000;
+  font-size: 15px;
+}
+
+table 
+{
+  border-collapse: collapse;
+  font-size: 10px;
+}
+
+th, td 
+{
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) 
+{
+    background-color: rgb(60, 107, 51); 
+}
+
+button 
+{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(14, 90, 24);
+  color: rgb(8, 218, 36);
+  border: none;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+button:hover 
+{
+  background-color: rgb(73, 228, 11);
+  color: #ffffff;
+}
+
